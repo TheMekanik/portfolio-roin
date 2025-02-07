@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="https://github.com/TheMekanik" target='_blank'>
             <FaGithub className='cursor-pointer text-4xl hover:text-sky-300'/>
           </a>
-          <a href="https://www.instagram.com/mad.roinn/">
+          <a href="https://www.instagram.com/mad.roinn/" target='_blank'>
             <FaInstagram className='cursor-pointer text-4xl hover:text-pink-500'/>
           </a>
         </div>

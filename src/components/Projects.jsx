@@ -17,7 +17,21 @@ const Projects = () => {
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
                 className="w-full lg:w-1/4">
-                    <img src={project.image} alt={project.title} width={200} height={200} className='mb-6 rounded'/>
+                    <a href={project.link} target='_blank' className="relative group inline-block">
+                        <img 
+                        src={project.image} 
+                        alt={project.title} 
+                        width={200} 
+                        height={200} 
+                        className='z-0 mb-6 rounded cursor-pointer grayscale brightness-50 hover:scale-110 duration-150 hover:grayscale-0 hover:brightness-100'
+                        />
+                        <p className="
+                        absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+                        -mt-3 px-2 py-2 text-white border text-center border-white rounded-xl 
+                        z-10 group-hover:hidden backdrop-blur-md">
+                        Tap To See More
+                        </p>
+                    </a>
                 </motion.div>
 
                 <motion.div 
