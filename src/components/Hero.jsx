@@ -1,4 +1,3 @@
-import React from 'react'
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/myprofile.jpg"
 import { motion } from "motion/react";
@@ -12,9 +11,9 @@ const container = (delay) => ({
     } 
 })
 
-const Hero = () => {
+const Hero = ({language}) => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 pt-28">
         <div className="flex flex-wrap md:justify-center sm:justify-center">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
@@ -30,13 +29,13 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     className='bg-gradient-to-r from-sky-300 via-slate-500 to-blue-500 bg-clip-text text-3xl tracking-light text-transparent'>
-                        Data Enthusiast / Web Developer
+                        {language === 'en' ? 'Web Developer' : 'Pengembang Web'}
                     </motion.span>
                     <motion.p 
                     variants={container(1)}
                     initial="hidden"
                     animate="visible"
-                    className='text-justify my-2 max-w-xl motion.py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
+                    className='text-justify my-2 max-w-xl motion.py-6 font-light tracking-tighter'>{language === 'en' ? HERO_CONTENT.en : HERO_CONTENT.id}</motion.p>
                 </div>
             </div>
             <div className="mt-2 lg:w-1/2 lg:p-8">
