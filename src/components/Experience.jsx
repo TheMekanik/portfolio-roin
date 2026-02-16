@@ -1,8 +1,7 @@
-import React from 'react'
 import { EXPERIENCES } from '../constants'
 import { motion } from "motion/react";
 
-const Experience = () => {
+const Experience = ({language}) => {
   return (
     <div className="border-b border-neutral-900">
         <motion.h2 
@@ -10,10 +9,10 @@ const Experience = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className='my-20 text-center text-4xl'>
-            Organizational Experience
+            {language === 'en' ? 'Organizational Experience' : 'Pengalaman Organisasi'}
         </motion.h2>
         <div>
-            {EXPERIENCES.map((experience, index) => (
+            {EXPERIENCES[language].map((experience, index) => (
                 <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div 
                     whileInView={{ opacity: 1, x: 0 }}
