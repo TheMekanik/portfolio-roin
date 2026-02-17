@@ -25,7 +25,7 @@ const InternshipExperience = ({language}) => {
               className="w-full h-fit lg:w-1/4 mb-8 overflow-hidden"
             >
               <img
-                src="./src/assets/FotoDepanLogoAdira.jpeg"
+                src="https://res.cloudinary.com/dczgf0ovv/image/upload/v1771302358/FotoDepanLogoAdira_rwud17.jpg"
                 alt="FotoMagang"
                 className="w-full object-cover rounded-lg max-h-[60%]"
               />
@@ -38,9 +38,7 @@ const InternshipExperience = ({language}) => {
             >
               <h6 className="mb-2 font-semibold">
                 {experience.role} <br></br>{' '}
-                <p
-                  className="text-sm cursor-pointer text-purple-100 hover:underline"
-                >
+                <p className="text-sm cursor-pointer text-purple-100 hover:underline">
                   {experience.company}
                 </p>
                 <p className="text-[12px]">{experience.year}</p>
@@ -50,10 +48,13 @@ const InternshipExperience = ({language}) => {
               </p>
 
               <a
-                href="https://drive.google.com/file/d/1OTrk7yis3Bff2z-NucO-wBsTUTsgPQY_/view?usp=drive_link" target='_blank'
+                href="https://drive.google.com/file/d/1OTrk7yis3Bff2z-NucO-wBsTUTsgPQY_/view?usp=drive_link"
+                target="_blank"
                 className="py-2 px-4 bg-gray-600 rounded-lg text-white cursor-pointer hover:bg-gray-900"
               >
-                {language === 'en' ? 'Internship Certificate' : 'Sertifikat Magang'}
+                {language === 'en'
+                  ? 'Internship Certificate'
+                  : 'Sertifikat Magang'}
               </a>
             </motion.div>
           </div>
