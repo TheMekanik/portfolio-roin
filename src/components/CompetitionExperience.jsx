@@ -10,7 +10,9 @@ const CompetitionExperience = ({language}) => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        {language === 'en' ? 'Competition Experience' : 'Pengalaman Berkompetisi'}
+        {language === 'en'
+          ? 'Competition Experience'
+          : 'Pengalaman Berkompetisi'}
       </motion.h2>
       <div>
         {COMPETITION[language].map((comp, index) => (
@@ -31,7 +33,7 @@ const CompetitionExperience = ({language}) => {
                 className="block w-full h-full"
               >
                 <img
-                  src="./src/assets/PIMNAS25_NaverGlasses.jpeg" 
+                  src="https://res.cloudinary.com/dczgf0ovv/image/upload/v1771302330/PIMNAS_NaverGlasses_kteu4j.jpg"
                   alt="FotoMagang"
                   className="w-full object-cover rounded-lg transition-transform duration-500 group-hover:scale-110"
                 />
@@ -66,7 +68,9 @@ const CompetitionExperience = ({language}) => {
                 target="_blank"
                 className="py-2 px-4 bg-gray-600 rounded-lg text-white cursor-pointer hover:bg-gray-900"
               >
-                {language === 'en' ? 'Competition Certificate' : 'Sertifikat Kompetisi'}
+                {language === 'en'
+                  ? 'Competition Certificate'
+                  : 'Sertifikat Kompetisi'}
               </a>
             </motion.div>
           </div>
