@@ -1,7 +1,7 @@
-import { COMPETITION } from '../constants';
-import { motion } from 'motion/react';
+import { COMPETITION } from "../constants";
+import { motion } from "motion/react";
 
-const CompetitionExperience = ({language}) => {
+const CompetitionExperience = ({ language }) => {
   return (
     <div className="border-b border-neutral-900">
       <motion.h2
@@ -10,9 +10,9 @@ const CompetitionExperience = ({language}) => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        {language === 'en'
-          ? 'Competition Experience'
-          : 'Pengalaman Berkompetisi'}
+        {language === "en"
+          ? "Competition Experience"
+          : "Pengalaman Berkompetisi"}
       </motion.h2>
       <div>
         {COMPETITION[language].map((comp, index) => (
@@ -34,13 +34,13 @@ const CompetitionExperience = ({language}) => {
               >
                 <img
                   src="https://res.cloudinary.com/dczgf0ovv/image/upload/v1771302330/PIMNAS_NaverGlasses_kteu4j.jpg"
-                  alt="FotoMagang"
+                  alt="FotoPimnas"
                   className="w-full object-cover rounded-lg transition-transform duration-500 group-hover:scale-110"
                 />
 
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <span className="text-white font-bold text-lg tracking-wider">
-                    {language === 'en' ? 'See More' : 'Selengkapnya'}
+                    {language === "en" ? "See More" : "Selengkapnya"}
                   </span>
                 </div>
               </a>
@@ -53,7 +53,7 @@ const CompetitionExperience = ({language}) => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">
-                {comp.competiton} <br></br>{' '}
+                {comp.competiton} <br></br>{" "}
                 <p className="text-sm cursor-pointer text-purple-100 hover:underline">
                   {comp.event}
                 </p>
@@ -64,13 +64,13 @@ const CompetitionExperience = ({language}) => {
               </p>
 
               <a
-                href="https://drive.google.com/file/d/1Freuwe_KJYIGzR7ll3_ix_WRM3nc3-52/view?usp=sharing"
+                href="https://res.cloudinary.com/dczgf0ovv/image/upload/v1772279561/competition_certificate_pcrho6.jpg"
                 target="_blank"
                 className="py-2 px-4 bg-gray-600 rounded-lg text-white cursor-pointer hover:bg-gray-900"
               >
-                {language === 'en'
-                  ? 'Competition Certificate'
-                  : 'Sertifikat Kompetisi'}
+                {language === "en"
+                  ? "Competition Certificate"
+                  : "Sertifikat Kompetisi"}
               </a>
             </motion.div>
           </div>

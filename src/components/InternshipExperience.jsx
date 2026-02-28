@@ -1,7 +1,7 @@
-import { INTERNSHIP } from '../constants';
-import { motion } from 'motion/react';
+import { INTERNSHIP } from "../constants";
+import { motion } from "motion/react";
 
-const InternshipExperience = ({language}) => {
+const InternshipExperience = ({ language }) => {
   return (
     <div className="border-b border-neutral-900">
       <motion.h2
@@ -10,7 +10,7 @@ const InternshipExperience = ({language}) => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        {language === 'en' ? 'Internship Experience' : 'Pengalaman Magang'}
+        {language === "en" ? "Internship Experience" : "Pengalaman Magang"}
       </motion.h2>
       <div>
         {INTERNSHIP[language].map((experience, index) => (
@@ -37,7 +37,7 @@ const InternshipExperience = ({language}) => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">
-                {experience.role} <br></br>{' '}
+                {experience.role} <br></br>{" "}
                 <p className="text-sm cursor-pointer text-purple-100 hover:underline">
                   {experience.company}
                 </p>
@@ -48,13 +48,13 @@ const InternshipExperience = ({language}) => {
               </p>
 
               <a
-                href="https://drive.google.com/file/d/1OTrk7yis3Bff2z-NucO-wBsTUTsgPQY_/view?usp=drive_link"
+                href="https://res.cloudinary.com/dczgf0ovv/image/upload/v1772279562/internship_certificate_lgwksy.jpg"
                 target="_blank"
                 className="py-2 px-4 bg-gray-600 rounded-lg text-white cursor-pointer hover:bg-gray-900"
               >
-                {language === 'en'
-                  ? 'Internship Certificate'
-                  : 'Sertifikat Magang'}
+                {language === "en"
+                  ? "Internship Certificate"
+                  : "Sertifikat Magang"}
               </a>
             </motion.div>
           </div>
