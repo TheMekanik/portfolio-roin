@@ -1,38 +1,65 @@
-import project1 from "../assets/projects/mockup_ecommerce.png";
-import project2 from "../assets/projects/mockup_beasiswa.png";
 import project3 from "../assets/projects/mockup_portfolio.png";
 import WebAdira from "../assets/projects/WebAdira.jpeg";
+import dicicil from "../assets/projects/simucildicicil.png";
 
 export const HERO_CONTENT = {
-  en: `Hi, I am Ahmad Ro'in Fannani, a final year student currently pursuing Information Systems studies. I have an interest in web development, focusing on building systems that provide effective business solutions. I have experience working on web development projects as a full-stack and front-end developer. I enjoy working in teams, leveraging my adaptability, communication skills, and team management abilities gained from my organizational experiences.`,
-  id: `Halo, saya Ahmad Ro'in Fannani, mahasiswa tingkat akhir yang sedang menempuh studi Sistem Informasi. Saya tertarik pada pengembangan web, dengan fokus membangun sistem yang memberikan solusi bisnis yang efektif. Saya memiliki pengalaman mengerjakan proyek pengembangan web sebagai pengembang full-stack dan front-end. Saya senang bekerja dalam tim, memanfaatkan kemampuan adaptasi, komunikasi, dan manajemen tim yang saya peroleh dari pengalaman organisasi saya.`,
+  en: `Hi, I’m Ahmad Ro’in Fannani, an Information Systems graduate with hands-on experience in web application development. I have experience working as a Software Engineer Intern, contributing to the development and maintenance of production web applications across both frontend and backend. I enjoy building practical solutions that address user and business needs, while continuously improving my technical skills and understanding of software engineering. I’m adaptable, collaborative, and comfortable working in team environments.`,
+  id: `Hi, saya Ahmad Ro’in Fannani, lulusan Sistem Informasi dengan pengalaman langsung dalam pengembangan aplikasi web. Saya memiliki pengalaman sebagai Software Engineer Intern dengan berkontribusi dalam pengembangan dan pemeliharaan aplikasi web production, baik pada sisi frontend maupun backend. Saya senang membangun solusi praktis yang dapat menjawab kebutuhan pengguna dan bisnis, sekaligus terus mengembangkan kemampuan teknis dan pemahaman saya di bidang software engineering. Saya adaptif, kolaboratif, dan nyaman bekerja dalam lingkungan kerja tim.`,
 };
 
 export const ABOUT_TEXT = {
-  en: `With a strong interest in web development, I have hands-on experience building applications using HTML, CSS, JavaScript, and PHP. I am proficient in modern frameworks such as React.js, Vue.js, Node.js, Express.js, and Laravel, and I have experience developing scalable and maintainable applications using TypeScript. I have also worked extensively with MySQL for database management. Passionate about problem-solving, I enjoy collaborating in teams, learning new technologies, and contributing to impactful projects.`,
-  id: `Dengan minat yang kuat dalam pengembangan web, saya memiliki pengalaman langsung dalam membangun aplikasi menggunakan HTML, CSS, JavaScript, dan PHP. Saya mahir dalam framework modern seperti React.js, Vue.js, Node.js, Express.js, dan Laravel, dan saya memiliki pengalaman mengembangkan aplikasi yang skalabel dan mudah dipelihara menggunakan TypeScript. Saya juga telah banyak bekerja dengan MySQL untuk manajemen basis data. Saya sangat antusias dalam memecahkan masalah, dan saya senang berkolaborasi dalam tim, mempelajari teknologi baru, dan berkontribusi pada proyek-proyek yang berdampak.`,
+  en: `With a strong interest in software and web development, I have hands-on experience building and maintaining web applications across both frontend and backend. I have worked with technologies such as HTML, CSS, JavaScript, TypeScript, Vue.js, Node.js, Express.js, and Laravel, with experience developing REST APIs and working with MySQL databases. Through my internship experience, I have contributed to production applications, feature development, system maintenance, troubleshooting, and deployment processes. I enjoy solving problems, collaborating with teams, learning new technologies, and building practical solutions that address real user and business needs.`,
+  id: `Dengan minat yang kuat pada bidang software dan web development, saya memiliki pengalaman langsung dalam membangun dan memelihara aplikasi web, baik pada sisi frontend maupun backend. Saya telah menggunakan berbagai teknologi seperti HTML, CSS, JavaScript, TypeScript, Vue.js, Node.js, Express.js, dan Laravel, serta memiliki pengalaman dalam pengembangan REST API dan pengelolaan database MySQL. Melalui pengalaman magang, saya berkontribusi dalam pengembangan aplikasi production, pengembangan fitur, pemeliharaan sistem, troubleshooting, dan proses deployment. Saya senang memecahkan masalah, berkolaborasi dalam tim, mempelajari teknologi baru, dan membangun solusi praktis yang dapat menjawab kebutuhan pengguna dan bisnis.`,
 };
 
-export const INTERNSHIP = {
-  en: [
-    {
-      year: "March 2025 - September 2025",
-      role: "Frontend Web Developer",
-      company: "PT. Adira Dinamika Multi Finance",
-      description:
-        "During my internship as a Frontend Web Developer at PT Adira Dinamika Multi Finance Tbk (Adira Finance), I was responsible for developing and optimizing the company’s website landing pages and content management system (CMS). I implemented responsive and reusable UI components, integrated APIs, and ensured seamless user experience across devices. The project was successfully deployed and went live on https://www.adira.co.id, contributing directly to the company’s official digital platform.",
+export const INTERNSHIP = [
+  {
+    id: 1,
+    image:
+      'https://res.cloudinary.com/dh1vjjwtn/image/upload/v1789726314/CoronationOfTheIntern_p98z9k.jpg',
+    certificate: null,
+    data: {
+      en: {
+        year: 'March 2026 - September 2026',
+        role: 'Software Engineer Intern',
+        company: 'PT. Adira Dinamika Multi Finance',
+        description:
+          'During my internship as a Software Engineer at PT Adira Dinamika Multi Finance Tbk (Adira Finance), I contributed to the development and maintenance of DicicilAja.com, a digital financing platform. I worked on feature development, REST API development and maintenance, troubleshooting, BAU support, and deployment processes. One of my key contributions was the installment simulation and financing application flow, which is now live and accessible to users.',
+      },
+      id: {
+        year: 'Maret 2026 - September 2026',
+        role: 'Software Engineer Intern',
+        company: 'PT. Adira Dinamika Multi Finance',
+        description:
+          'Selama menjalani magang sebagai Software Engineer di PT Adira Dinamika Multi Finance Tbk (Adira Finance), saya berkontribusi dalam pengembangan dan pemeliharaan DicicilAja.com sebagai platform pembiayaan digital. Saya terlibat dalam pengembangan fitur, pengembangan dan pemeliharaan REST API, troubleshooting, dukungan BAU, serta proses deployment. Salah satu kontribusi utama saya adalah pada alur simulasi angsuran dan pengajuan pembiayaan yang kini telah live dan dapat diakses oleh pengguna.',
+      },
     },
-  ],
-  id: [
-    {
-      year: "Maret 2025 - September 2025",
-      role: "Frontend Web Developer",
-      company: "PT. Adira Dinamika Multi Finance",
-      description:
-        "Selama masa magang saya sebagai Frontend Web Developer di PT Adira Dinamika Multi Finance Tbk (Adira Finance), saya bertanggung jawab untuk mengembangkan dan mengoptimalkan landing page dan sistem manajemen konten (CMS) situs web perusahaan. Saya mengimplementasikan komponen UI yang responsif dan dapat digunakan kembali, mengintegrasikan API, dan memastikan pengalaman pengguna yang lancar di berbagai perangkat. Proyek ini berhasil diimplementasikan dan ditayangkan di https://www.adira.co.id, yang secara langsung berkontribusi pada platform digital resmi perusahaan.",
+  },
+  {
+    id: 2,
+    image:
+      'https://res.cloudinary.com/dczgf0ovv/image/upload/v1771302358/FotoDepanLogoAdira_rwud17.jpg',
+    certificate:
+      'https://res.cloudinary.com/dczgf0ovv/image/upload/v1772279562/internship_certificate_lgwksy.jpg',
+    data: {
+      en: {
+        year: 'March 2025 - September 2025',
+        role: 'Frontend Web Developer',
+        company: 'PT. Adira Dinamika Multi Finance',
+        description:
+          'During my internship as a Frontend Web Developer at PT Adira Dinamika Multi Finance Tbk (Adira Finance), I was responsible for developing and optimizing the company’s website landing pages and content management system (CMS). I implemented responsive and reusable UI components, integrated APIs, and ensured seamless user experience across devices. The project was successfully deployed and went live on https://www.adira.co.id, contributing directly to the company’s official digital platform.',
+      },
+      id: {
+        year: 'Maret 2025 - September 2025',
+        role: 'Frontend Web Developer',
+        company: 'PT. Adira Dinamika Multi Finance',
+        description:
+          'Selama masa magang saya sebagai Frontend Web Developer di PT Adira Dinamika Multi Finance Tbk (Adira Finance), saya bertanggung jawab untuk mengembangkan dan mengoptimalkan landing page dan sistem manajemen konten (CMS) situs web perusahaan. Saya mengimplementasikan komponen UI yang responsif dan dapat digunakan kembali, mengintegrasikan API, dan memastikan pengalaman pengguna yang lancar di berbagai perangkat. Proyek ini berhasil diimplementasikan dan ditayangkan di https://www.adira.co.id, yang secara langsung berkontribusi pada platform digital resmi perusahaan.',
+      },
     },
-  ],
-};
+  },
+];
+
 
 export const COMPETITION = {
   en: [
@@ -95,70 +122,54 @@ export const EXPERIENCES = {
 export const PROJECTS = {
   en: [
     {
-      title: "Adira.co.id",
+      title: 'dicicilaja.com',
+      image: dicicil,
+      description:
+        'A digital financing platform by Adira Finance that provides financing services, including installment simulation and online financing applications, allowing users to explore financing options and submit applications digitally.',
+      technologies: ['Vue.js 2', 'Laravel', 'Spring Boot 3', 'MySQL'],
+      link: 'https://dicicilaja.com/',
+    },
+    {
+      title: 'adira.co.id',
       image: WebAdira,
       description:
-        "Landing page website for PT. Adira Dinamika Multi Finance integrated with a website content management system to organize the layout and content",
-      technologies: ["Vue JS", "Typescript", "Tailwind CSS"],
-      link: "https://www.adira.co.id",
+        'Landing page website for PT. Adira Dinamika Multi Finance integrated with a website content management system to organize the layout and content',
+      technologies: ['Vue.js 3', 'Typescript', 'Tailwind CSS'],
+      link: 'https://www.adira.co.id',
     },
     {
-      title: "E-Commerce Website",
-      image: project1,
-      description:
-        "An e-commerce website with features like product listing, shopping cart, and user authentication.",
-      technologies: ["PHP", "Laravel", "Bootstrap", "MySQL"],
-      link: "https://github.com/TheMekanik/ecommerce-laravel.git",
-    },
-    {
-      title: "Scholarship Information System",
-      image: project2,
-      description:
-        "A website based system that allows students to apply, update profiles, and upload documents, while administrators manage student data, issue recommendations, and review applications.",
-      technologies: ["PHP", "CSS", "Laravel", "MySQL"],
-      link: "https://github.com/TheMekanik/SistemBeasiswa.git",
-    },
-    {
-      title: "Portfolio Website",
+      title: 'Portfolio Website',
       image: project3,
       description:
-        "A personal portfolio website showcasing my education, organizational experiences, projects, skills, and contact information.",
-      technologies: ["React", "Tailwind CSS"],
-      link: "#",
+        'A personal portfolio website showcasing my education, organizational experiences, projects, skills, and contact information.',
+      technologies: ['React', 'Tailwind CSS'],
+      link: '#',
     },
   ],
   id: [
     {
-      title: "Adira.co.id",
+      title: 'dicicilaja.com',
+      image: dicicil,
+      description:
+        'Platform pembiayaan digital dari Adira Finance yang menyediakan layanan pembiayaan, termasuk simulasi angsuran dan pengajuan pembiayaan secara online, sehingga pengguna dapat mengetahui pilihan pembiayaan dan mengajukan pembiayaan secara digital.',
+      technologies: ['Vue.js 2', 'Laravel', 'Spring Boot 3', 'MySQL'],
+      link: 'https://dicicilaja.com/',
+    },
+    {
+      title: 'adira.co.id',
       image: WebAdira,
       description:
-        "Website landing page untuk PT. Adira Dinamika Multi Finance yang terintegrasi dengan website content management system untuk mengatur tata letak dan isi konten.",
-      technologies: ["Vue JS", "Typescript", "Tailwind CSS"],
-      link: "https://www.adira.co.id",
+        'Website landing page untuk PT. Adira Dinamika Multi Finance yang terintegrasi dengan website content management system untuk mengatur tata letak dan isi konten.',
+      technologies: ['Vue.js 3', 'Typescript', 'Tailwind CSS'],
+      link: 'https://www.adira.co.id',
     },
     {
-      title: "Website E-Commerce",
-      image: project1,
-      description:
-        "Situs web e-commerce dengan fitur-fitur seperti daftar produk, keranjang belanja, dan otentikasi pengguna.",
-      technologies: ["PHP", "Laravel", "Bootstrap", "MySQL"],
-      link: "https://github.com/TheMekanik/ecommerce-laravel.git",
-    },
-    {
-      title: "Sistem Informasi Manajemen Beasiswa",
-      image: project2,
-      description:
-        "Sebuah sistem berbasis situs web yang memungkinkan siswa untuk mendaftar, memperbarui profil, dan mengunggah dokumen, sementara administrator mengelola data siswa, memberikan rekomendasi, dan meninjau aplikasi.",
-      technologies: ["PHP", "CSS", "Laravel", "MySQL"],
-      link: "https://github.com/TheMekanik/SistemBeasiswa.git",
-    },
-    {
-      title: "Website Portofolio",
+      title: 'Website Portofolio',
       image: project3,
       description:
-        "Situs web portofolio pribadi yang menampilkan pendidikan, pengalaman organisasi, proyek, keterampilan, dan informasi kontak saya.",
-      technologies: ["React", "Tailwind CSS"],
-      link: "#",
+        'Situs web portofolio pribadi yang menampilkan pendidikan, pengalaman organisasi, proyek, keterampilan, dan informasi kontak saya.',
+      technologies: ['React', 'Tailwind CSS'],
+      link: '#',
     },
   ],
 };
