@@ -10,10 +10,10 @@ const InternshipExperience = ({ language }) => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        {language === "en" ? "Internship Experience" : "Pengalaman Magang"}
+        {language === 'en' ? 'Internship Experience' : 'Pengalaman Magang'}
       </motion.h2>
       <div>
-        {INTERNSHIP[language].map((experience, index) => (
+        {INTERNSHIP.map((experience, index) => (
           <div
             key={index}
             className="mb-8 flex flex-wrap lg:justify-center lg:gap-8"
@@ -25,9 +25,9 @@ const InternshipExperience = ({ language }) => {
               className="w-full h-fit lg:w-1/4 mb-8 overflow-hidden"
             >
               <img
-                src="https://res.cloudinary.com/dczgf0ovv/image/upload/v1771302358/FotoDepanLogoAdira_rwud17.jpg"
-                alt="FotoMagang"
-                className="w-full object-cover rounded-lg max-h-[60%]"
+                src={experience.image}
+                alt={`fotomagang-${index + 1}`}
+                className="w-full object-cover rounded-lg lg:min-h-[350px] max-h-[60%]"
               />
             </motion.div>
             <motion.div
@@ -37,25 +37,28 @@ const InternshipExperience = ({ language }) => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">
-                {experience.role} <br></br>{" "}
+                {experience.data[language].role} <br></br>{' '}
                 <p className="text-sm cursor-pointer text-purple-100 hover:underline">
-                  {experience.company}
+                  {experience.data[language].company}
                 </p>
-                <p className="text-[12px]">{experience.year}</p>
+                <p className="text-[12px]">{experience.data[language].year}</p>
               </h6>
               <p className="mb-4 text-neutral-400 text-justify">
-                {experience.description}
+                {experience.data[language].description}
               </p>
 
-              <a
-                href="https://res.cloudinary.com/dczgf0ovv/image/upload/v1772279562/internship_certificate_lgwksy.jpg"
-                target="_blank"
-                className="py-2 px-4 bg-gray-600 rounded-lg text-white cursor-pointer hover:bg-gray-900"
-              >
-                {language === "en"
-                  ? "Internship Certificate"
-                  : "Sertifikat Magang"}
-              </a>
+              {experience.certificate && (
+                <a
+                  href={experience.certificate}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-2 px-4 bg-gray-600 rounded-lg text-white cursor-pointer hover:bg-gray-900"
+                >
+                  {language === 'en'
+                    ? 'Internship Certificate'
+                    : 'Sertifikat Magang'}
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

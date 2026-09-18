@@ -2,14 +2,16 @@ import { RiReactjsLine } from 'react-icons/ri'
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import { FaJava } from 'react-icons/fa';
+// import { FaCss3Alt } from "react-icons/fa";
 import { FaVuejs } from 'react-icons/fa';
 import { FaJs } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiTypescript } from 'react-icons/si';
+import { SiSpringboot } from 'react-icons/si';
+import { BiLogoSpringBoot } from 'react-icons/bi';
 
 
 import { motion } from "motion/react";
@@ -106,7 +108,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-full border-4 border-neutral-800 p-4"
         >
-          <FaHtml5 className="text-7xl text-orange-600" />
+          <BiLogoSpringBoot className="text-7xl text-orange-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -114,7 +116,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-full border-4 border-neutral-800 p-4"
         >
-          <FaCss3Alt className="text-7xl text-sky-500" />
+          <FaJava className="text-7xl text-sky-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
