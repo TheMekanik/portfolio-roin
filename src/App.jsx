@@ -31,7 +31,7 @@ const App = () => {
         <Hero language={language} />
         <About language={language} />
         <Education language={language} />
-        <Technologies />
+        <Technologies language={language} />
         <InternshipExperience language={language} />
         <CompetitionExperience language={language} />
         <Experience language={language} />
