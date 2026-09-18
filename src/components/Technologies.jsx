@@ -3,15 +3,14 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
 import { FaJava } from 'react-icons/fa';
-// import { FaCss3Alt } from "react-icons/fa";
 import { FaVuejs } from 'react-icons/fa';
 import { FaJs } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiTypescript } from 'react-icons/si';
-import { SiSpringboot } from 'react-icons/si';
 import { BiLogoSpringBoot } from 'react-icons/bi';
+import { FaGitAlt } from 'react-icons/fa';
 
 
 import { motion } from "motion/react";
@@ -38,7 +37,7 @@ const Technologies = ({language}) => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        { language === 'en' ? 'Technical Skills' : 'Kemampuan Teknis'}
+        {language === 'en' ? 'Technical Skills' : 'Kemampuan Teknis'}
       </motion.h1>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -93,6 +92,14 @@ const Technologies = ({language}) => {
           className="rounded-full border-4 border-neutral-800 p-4"
         >
           <FaLaravel className="text-7xl text-red-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-full border-4 border-neutral-800 p-4"
+        >
+          <FaGitAlt className="text-7xl text-red-700" />
         </motion.div>
       </motion.div>
 
