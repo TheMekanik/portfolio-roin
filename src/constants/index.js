@@ -1,6 +1,7 @@
-import project3 from "../assets/projects/mockup_portfolio.png";
-import WebAdira from "../assets/projects/WebAdira.jpeg";
-import dicicil from "../assets/projects/simucildicicil.png";
+import project3 from '../assets/projects/mockup_portfolio.png';
+import WebAdira from '../assets/projects/WebAdira.jpeg';
+import dicicil from '../assets/projects/simucildicicil.png';
+import bpi from '../assets/projects/BPI_Project.png';
 
 export const HERO_CONTENT = {
   en: `Hi, I’m Ahmad Ro’in Fannani, an Information Systems graduate with hands-on experience in web application development. I have experience working as a Software Engineer Intern, contributing to the development and maintenance of production web applications across both frontend and backend. I enjoy building practical solutions that address user and business needs, while continuously improving my technical skills and understanding of software engineering. I’m adaptable, collaborative, and comfortable working in team environments.`,
@@ -60,24 +61,23 @@ export const INTERNSHIP = [
   },
 ];
 
-
 export const COMPETITION = {
   en: [
     {
-      year: "April 2025 - November 2025",
-      competiton: "Pekan Ilmiah Mahasiswa Nasional 2025",
-      event: "Program Kreativitas Mahasiswa",
+      year: 'April 2025 - November 2025',
+      competiton: 'Pekan Ilmiah Mahasiswa Nasional 2025',
+      event: 'Program Kreativitas Mahasiswa',
       description:
-        "As a participant in Pekan Ilmiah Mahasiswa Nasional 2025, organized by the Kementerian Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia, I earned the opportunity to compete after successfully completing the Program Kreativitas Mahasiswa Karsa Cipta 2025. Together with my team, we developed a smart glasses prototype designed to assist visually impaired individuals in their daily activities. Our dedication and collaborative effort led us to achieve 3rd place nationally (Bronze Medal equivalent) in the PKM-KC Poster Category, marking a significant milestone in our academic and innovation journey.",
+        'As a participant in Pekan Ilmiah Mahasiswa Nasional 2025, organized by the Kementerian Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia, I earned the opportunity to compete after successfully completing the Program Kreativitas Mahasiswa Karsa Cipta 2025. Together with my team, we developed a smart glasses prototype designed to assist visually impaired individuals in their daily activities. Our dedication and collaborative effort led us to achieve 3rd place nationally (Bronze Medal equivalent) in the PKM-KC Poster Category, marking a significant milestone in our academic and innovation journey.',
     },
   ],
   id: [
     {
-      year: "April 2025 - November 2025",
-      competiton: "Pekan Ilmiah Mahasiswa Nasional 2025",
-      event: "Program Kreativitas Mahasiswa",
+      year: 'April 2025 - November 2025',
+      competiton: 'Pekan Ilmiah Mahasiswa Nasional 2025',
+      event: 'Program Kreativitas Mahasiswa',
       description:
-        "Sebagai peserta Pekan Ilmiah Mahasiswa Nasional 2025, yang diselenggarakan oleh Kementerian Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia, saya mendapatkan kesempatan untuk berkompetisi setelah berhasil menyelesaikan Program Kreativitas Mahasiswa Karsa Cipta 2025. Bersama tim saya, kami mengembangkan prototipe kacamata pintar yang dirancang untuk membantu penyandang tunanetra dalam aktivitas sehari-hari mereka. Dedikasi dan kerja sama kami membawa kami meraih juara 3 nasional (setara Medali Perunggu) dalam Kategori Poster PKM-KC, yang menandai tonggak penting dalam perjalanan akademis dan inovasi kami.",
+        'Sebagai peserta Pekan Ilmiah Mahasiswa Nasional 2025, yang diselenggarakan oleh Kementerian Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia, saya mendapatkan kesempatan untuk berkompetisi setelah berhasil menyelesaikan Program Kreativitas Mahasiswa Karsa Cipta 2025. Bersama tim saya, kami mengembangkan prototipe kacamata pintar yang dirancang untuk membantu penyandang tunanetra dalam aktivitas sehari-hari mereka. Dedikasi dan kerja sama kami membawa kami meraih juara 3 nasional (setara Medali Perunggu) dalam Kategori Poster PKM-KC, yang menandai tonggak penting dalam perjalanan akademis dan inovasi kami.',
     },
   ],
 };
@@ -85,36 +85,36 @@ export const COMPETITION = {
 export const EXPERIENCES = {
   en: [
     {
-      year: "January 2024 - December 2025",
-      role: "Staff of Advocacy and Student Welfare Department",
+      year: 'January 2024 - December 2025',
+      role: 'Staff of Advocacy and Student Welfare Department',
       company:
         "Badan Eksekutif Mahasiswa Fakultas Ilmu Komputer UPN 'Veteran' Jakarta",
       description: `Bridged communication between students and faculty, empowering student voices and fostering transparency through feedback sessions and advocacy meetings. Helped address key issues such as facility improvements and academic support, strengthening trust and student participation in policy discussions.`,
-      profile_link: "https://www.instagram.com/p/DFcfH-GTLuc/?img_index=1",
+      profile_link: 'https://www.instagram.com/p/DFcfH-GTLuc/?img_index=1',
     },
     {
-      year: "January 2025 - January 2026",
-      role: "Vice Chair of Commission II",
+      year: 'January 2025 - January 2026',
+      role: 'Vice Chair of Commission II',
       company: "Senat Mahasiswa Fakultas Ilmu Komputer UPN 'Veteran' Jakarta",
       description: `Gathered, accommodated, and followed up on student aspirations at the Faculty of Computer Science, UPN Veteran Jakarta. Facilitated communication with the faculty's executive student organization and conducted educational initiatives on advocacy and student rights.`,
-      profile_link: "https://www.instagram.com/p/DCy4mO7yuyO/?img_index=1",
+      profile_link: 'https://www.instagram.com/p/DCy4mO7yuyO/?img_index=1',
     },
   ],
   id: [
     {
-      year: "Januari 2024 - Desember 2025",
-      role: "Staf Departemen Advokasi dan Kesejahteraan Mahasiswa",
+      year: 'Januari 2024 - Desember 2025',
+      role: 'Staf Departemen Advokasi dan Kesejahteraan Mahasiswa',
       company:
         "Badan Eksekutif Mahasiswa Fakultas Ilmu Komputer UPN 'Veteran' Jakarta",
       description: `Membangun komunikasi yang baik antara mahasiswa dan dosen, memberdayakan suara mahasiswa dan mendorong transparansi melalui sesi umpan balik dan pertemuan advokasi. Membantu mengatasi isu-isu penting seperti peningkatan fasilitas dan dukungan akademik, memperkuat kepercayaan dan partisipasi mahasiswa dalam diskusi kebijakan.`,
-      profile_link: "https://www.instagram.com/p/DFcfH-GTLuc/?img_index=1",
+      profile_link: 'https://www.instagram.com/p/DFcfH-GTLuc/?img_index=1',
     },
     {
-      year: "Januari 2025 - Januari 2026",
-      role: "Wakil Kepala Komisi II",
+      year: 'Januari 2025 - Januari 2026',
+      role: 'Wakil Kepala Komisi II',
       company: "Senat Mahasiswa Fakultas Ilmu Komputer UPN 'Veteran' Jakarta",
       description: `Mengumpulkan, mengakomodasi, dan menindaklanjuti aspirasi mahasiswa di Fakultas Ilmu Komputer, UPN Veteran Jakarta. Memfasilitasi komunikasi dengan organisasi mahasiswa eksekutif fakultas dan melakukan inisiatif pendidikan tentang advokasi dan hak-hak mahasiswa.`,
-      profile_link: "https://www.instagram.com/p/DCy4mO7yuyO/?img_index=1",
+      profile_link: 'https://www.instagram.com/p/DCy4mO7yuyO/?img_index=1',
     },
   ],
 };
@@ -128,6 +128,20 @@ export const PROJECTS = {
         'A digital financing platform by Adira Finance that provides financing services, including installment simulation and online financing applications, allowing users to explore financing options and submit applications digitally.',
       technologies: ['Vue.js 2', 'Laravel', 'Spring Boot 3', 'MySQL'],
       link: 'https://dicicilaja.com/',
+    },
+    {
+      title: 'CV. Bumiputera Persada Industri E-Commerce',
+      image: bpi,
+      description:
+        'A thesis project that developed a web-based e-commerce information system for CV. Bumiputera Persada Industri to support product marketing, online sales, and order management, allowing customers to browse products and place orders digitally.',
+      technologies: [
+        'Vue.js 3',
+        'TypeScript',
+        'Tailwind CSS',
+        'Express.js',
+        'MySQL',
+      ],
+      link: 'https://bpi-uniform.vercel.app/',
     },
     {
       title: 'adira.co.id',
@@ -156,6 +170,20 @@ export const PROJECTS = {
       link: 'https://dicicilaja.com/',
     },
     {
+      title: 'E-Commerce CV. Bumiputera Persada Industri',
+      image: bpi,
+      description:
+        'Proyek skripsi berupa sistem informasi e-commerce berbasis website untuk mendukung pemasaran produk, penjualan online, dan pengelolaan pesanan pada CV. Bumiputera Persada Industri.',
+      technologies: [
+        'Vue.js 3',
+        'TypeScript',
+        'Tailwind CSS',
+        'Express.js',
+        'MySQL',
+      ],
+      link: '#',
+    },
+    {
       title: 'adira.co.id',
       image: WebAdira,
       description:
@@ -175,7 +203,7 @@ export const PROJECTS = {
 };
 
 export const CONTACT = {
-  address: "Jakarta, Indonesia ",
-  phoneNo: "+62-815-1456-5145 ",
-  email: "ahmadroinn24@gmail.com",
+  address: 'Jakarta, Indonesia ',
+  phoneNo: '+62-815-1456-5145 ',
+  email: 'ahmadroinn24@gmail.com',
 };
